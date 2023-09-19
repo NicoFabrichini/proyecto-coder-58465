@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans';
+    background-color: rgb(228, 219, 209);
+    overflow-x: hidden;
+}
+
+/*header*/
+header {
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+     
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+
+}
+
+.headerLeft img {
+    width: 50px;
+}
+
+header nav ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 7px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/*cierre header*/
+
+/* Vinculos*/
+a {
+    text-decoration: none;
+}
+    .boton {
+        background-color: #F15025;
+        color: #E6E8E6;
+        padding: 5px 10px;
+        border-radius: 15px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        
+    }
+
+
+
+/* Main*/
+main {
+    padding: 50px;
+    background-color: rgba(131, 64, 99, 0.281, 1);
+    
+}
+
+#portada {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* parallax */
+    background-image: url("../Imag/parallax.jpg");
+    height: 300px;
+    /* Crear el efecto parallax al scrollear */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box modeling */
+    padding: 50px 30px;
+    margin-bottom: 20px;
+}
+
+/*fin paralax*/
+/*Inicio Portada*/
+
+h2 {
+    color: rgb(31, 11, 11);
+    font-style: oblique;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+
+}
+
+ul {
+    list-style-type: none;
+    line-height: 20px;
+}
+
+
+
+/* Footer*/
+
+footer {
+    background-color: rgb(243, 235, 235);
+    color: rgb(212, 30, 30);
+
+    height: 520px;
+    overflow: hidden;
+}
+
+li { margin-left: 10px;
+
+
+
+}
+
+.linkcontacto {
+
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    text-align: center;
+
+
+
+
+}
+
+.infoContacto {
+    display: inline;
+    position: relative;
+    left: 1000px;
+    ;
+
+}
+
+.enlaces {
+
+    margin-top: 10px;
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+
+
+}
+
+.redes {
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    bottom: 500px;
+    left: 650px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.copyright {
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    bottom: 220px;
+    left: 530px;
+}
