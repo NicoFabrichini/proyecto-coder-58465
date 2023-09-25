@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Josefin Sans';
+    
     background-color: rgb(173, 186, 197);
     overflow-x: hidden;
 
@@ -19,7 +19,6 @@ body {
 
 
 header nav ul li a {
-    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
@@ -37,22 +36,13 @@ h1 {
 /* Vinculos*/
 a {
     text-decoration: none;
+    font-weight: 200px;
 
 }
 
 .nav-link {
     color: rgb(243, 236, 236);
 }
-
-.boton {
-    background-color: #eb5931;
-    color: #E6E8E6;
-    padding: 5px 10px;
-    border-radius: 15px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-}
-
 
 /* Main*/
 main {
@@ -61,24 +51,6 @@ main {
 
 }
 
-#portada {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /* parallax */
-    background-image: url("../Imag/parallax.jpg");
-    height: 300px;
-    /* Crear el efecto parallax al scrollear */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* box modeling */
-    padding: 50px 30px;
-    margin-bottom: 20px;
-}
-
-/*fin paralax*/
 /*Inicio Portada*/
 
 h2 {
@@ -89,77 +61,18 @@ h2 {
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 30px;
-
 }
-
-ul {
-    list-style-type: none;
-    line-height: 20px;
-}
-
-
 
 /* Footer*/
 
 footer {
     background-color: black;
     color: white;
-
-    height: 520px;
-    overflow: hidden;
 }
-
 li {
     margin-left: 10px;
-
-
-
 }
 
-.linkcontacto {
-
-    position: relative;
-    top: 10px;
-    font-size: 30px;
-    text-align: center;
 
 
 
-
-}
-
-.infoContacto {
-    display: inline;
-    position: relative;
-    left: 1000px;
-    ;
-
-}
-
-.enlaces {
-
-    margin-top: 10px;
-    position: relative;
-    bottom: 300px;
-    left: 20px;
-
-
-}
-
-.redes {
-    float: left;
-    margin-top: 10px;
-    position: relative;
-    bottom: 500px;
-    left: 650px;
-    line-height: 30px;
-    text-align: center;
-}
-
-.copyright {
-    float: left;
-    margin-top: 10px;
-    position: relative;
-    bottom: 220px;
-    left: 530px;
-}
