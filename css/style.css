@@ -6,47 +6,27 @@
 
 body {
     font-family: 'Josefin Sans';
-    background-color: rgb(228, 219, 209);
+    background-color: rgb(173, 186, 197);
     overflow-x: hidden;
+
 }
 
 /*header*/
-header {
-    display: flex;
-    background-color: black;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    justify-content: space-between;
-     
-}
 
-.headerLeft {
-    display: flex;
-    align-items: center;
+/*navbar*/
+.navbar-toggler-icon {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
 
-}
-
-.headerLeft img {
-    width: 50px;
-}
-
-header nav ul {
-    display: flex;
-    width: 400px;
-    justify-content: space-around;
-    padding-top: 15px;
-}
 
 header nav ul li a {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 15px;
-    line-height: 32px;
+   
 }
 
 h1 {
     color: rgb(255, 255, 255);
+    padding-top: 11px;
     padding-bottom: 7px;
     font-size: 30px;
     font-style: italic;
@@ -57,23 +37,28 @@ h1 {
 /* Vinculos*/
 a {
     text-decoration: none;
-}
-    .boton {
-        background-color: #F15025;
-        color: #E6E8E6;
-        padding: 5px 10px;
-        border-radius: 15px;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        
-    }
 
+}
+
+.nav-link {
+    color: rgb(243, 236, 236);
+}
+
+.boton {
+    background-color: #eb5931;
+    color: #E6E8E6;
+    padding: 5px 10px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
 
 
 /* Main*/
 main {
     padding: 50px;
     background-color: rgba(131, 64, 99, 0.281, 1);
-    
+
 }
 
 #portada {
@@ -117,14 +102,15 @@ ul {
 /* Footer*/
 
 footer {
-    background-color: rgb(243, 235, 235);
-    color: rgb(212, 30, 30);
+    background-color: black;
+    color: white;
 
     height: 520px;
     overflow: hidden;
 }
 
-li { margin-left: 10px;
+li {
+    margin-left: 10px;
 
 
 
