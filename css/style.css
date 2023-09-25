@@ -8,7 +8,6 @@ body {
     
     background-color: rgb(173, 186, 197);
     overflow-x: hidden;
-
 }
 
 /*header*/
@@ -33,6 +32,11 @@ h1 {
 
 /*cierre header*/
 
+/*formulario*/
+.formulario {
+    text-align: center;
+}
+
 /* Vinculos*/
 a {
     text-decoration: none;
@@ -56,12 +60,16 @@ main {
 h2 {
     color: rgb(31, 11, 11);
     font-style: oblique;
+    text-align: center;
 }
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 30px;
 }
+
+
+/*fin paralax*/
 
 /* Footer*/
 
