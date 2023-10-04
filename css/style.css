@@ -1,82 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    background: #4CA1AF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    overflow-x: hidden;
+  background: #4CA1AF;
+  background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+  background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+  overflow-x: hidden;
 }
-/*header*/
 
 /*navbar*/
 .navbar-toggler {
-    border-style: solid ;
-    border-color: white;
-    margin-left: 5px;
-           }
-  /*header*/         
+  border-style: solid;
+  border-color: white;
+  margin-left: 5px;
+}
+
+/*header*/
 header nav ul li a {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
 h1 {
-    color: rgb(255, 255, 255);
-    padding-top: 11px;
-    padding-bottom: 7px;
-    font-size: 30px;
-    font-style: italic;
+  color: rgb(255, 255, 255);
+  padding-top: 11px;
+  padding-bottom: 7px;
+  font-size: 30px;
+  font-style: italic;
 }
+
 /*cierre header*/
 
 /*formulario*/
 .formulario {
-    text-align: center;
+  text-align: center;
 }
 
 /* Vinculos*/
 a {
-    text-decoration: none;
-    font-weight: 200px;
+  text-decoration: none;
+  font-weight: 200px;
 }
 
 .nav-link {
-    color: rgb(243, 236, 236);
+  color: rgb(243, 236, 236);
 }
 
 /* Main*/
 main {
-    padding: 50px;
-    background-color: rgba(131, 64, 99, 0.281, 1);
+  padding: 50px;
 }
 
 /*Inicio Portada*/
-
 h2 {
-    color: rgb(44, 21, 12);
-    font-style: oblique;
-    text-align: center;
+  color: rgb(44, 21, 12);
+  font-style: oblique;
+  text-align: center;
 }
+
+.col-sm {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+}
+
 p {
-    color: rgb(20, 20, 19);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 30px;
+  color: rgb(20, 20, 19);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 30px;
 }
 
 /* Footer*/
 footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
+
 li {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
-.col-sm {box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-padding: 20px;
-
-}
-
+/*# sourceMappingURL=style.css.map */
