@@ -14,10 +14,16 @@ body {
     margin-left: 5px;
 }
 
+
 /*header*/
-header nav ul li a {
+
+.nav-link {
+    color: rgb(243, 236, 236);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+    &:hover {
+        color: red
+    }
 }
 
 h1 {
@@ -25,8 +31,8 @@ h1 {
     text-align: center;
     padding-bottom: 15px;
     font-size: 30px;
-    
-    
+
+
 }
 
 /*cierre header*/
@@ -34,18 +40,10 @@ h1 {
 /*formulario*/
 .formulario {
     text-align: center;
-    
+
 }
 
 /* Vinculos*/
-a {
-    text-decoration: none;
-    font-weight: 200px;
-}
-
-.nav-link {
-    color: rgb(243, 236, 236);
-}
 
 /* Main*/
 main {
@@ -67,7 +65,7 @@ h2 {
     background: #4CA1AF;
     background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
     background: linear-gradient(to right, #C4E0E5, #4CA1AF);
-    
+
 }
 
 p {
